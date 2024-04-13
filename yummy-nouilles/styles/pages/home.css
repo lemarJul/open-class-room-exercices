@@ -1,0 +1,132 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7.56rem;
+  margin: 123px 0 163px 0;
+}
+.hero__titleContainer {
+  display: flex;
+  flex-direction: column;
+}
+.hero__title {
+  margin: 0;
+}
+.hero__subtitle {
+  font-weight: var(--body-highlight-font-weight);
+  margin: 0.687rem 0 2rem 0;
+}
+.hero__icon {
+  height: 19rem;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2.1875rem;
+  margin-bottom: 72px;
+  gap: 36px;
+}
+.address__title {
+  margin: 0;
+  text-decoration-thickness: 0.188rem;
+  text-underline-offset: 0.25rem;
+  align-self: center;
+}
+.address__carousel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 110px;
+  justify-content: center;
+}
+.adress__item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.address__info {
+  margin: 0;
+}
+
+/* about section */
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.25rem;
+  margin-bottom: 4rem;
+  gap: 1rem;
+}
+.about__title {
+  margin: 0;
+}
+.about__text {
+  margin: 0;
+  width: 85%;
+  max-width: 1135px;
+}
+
+/* social section */
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.25rem;
+  margin-bottom: 4.5rem;
+  gap: 2.25rem;
+}
+.socialMedia__title {
+  margin: 0;
+}
+.socialMedia__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 69px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem 2rem 4.5rem 2rem;
+    gap: 4.5rem;
+    /* padding: 3.125rem; */
+  }
+  .hero__titleContainer {
+    text-align: center;
+    align-items: center;
+  }
+  .hero__subtitle {
+    max-width: 13.125rem;
+    margin: 1rem 0;
+  }
+  .hero__icon {
+    height: 14.5rem;
+  }
+
+  .address {
+    gap: 45px;
+  }
+  .address__carousel {
+    gap: 2.5rem;
+  }
+  .address__img {
+    width: 16rem;
+  }
+  .about__text {
+    width: 256px;
+  }
+
+  .socialMedia {
+    gap: 18px;
+  }
+  .socialMedia__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .socialMedia__img {
+    width: 15.75rem;
+  }
+}

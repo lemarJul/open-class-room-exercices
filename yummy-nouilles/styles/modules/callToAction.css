@@ -1,0 +1,21 @@
+.callToAction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13.5rem;
+  height: 3.5rem;
+  background-color: var(--black);
+  color: white;
+  font-family: var(--title-font);
+  font-style: normal;
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-weight);
+  text-decoration: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .callToAction {
+    width: 16rem;
+    height: 3rem;
+  }
+}

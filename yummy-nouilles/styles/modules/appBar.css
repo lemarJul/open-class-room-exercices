@@ -1,0 +1,43 @@
+.appBar {
+  display: flex;
+  flex-direction: row;
+  margin: 1.125rem 2.812rem 2.6875rem 2.812rem;
+  gap: 2rem;
+}
+.appBar__icon {
+  height: 4.5rem;
+}
+.appBar__nav {
+  display: flex;  
+  align-items: center;
+  gap: 1rem;
+}
+.appBar__navItem {
+  text-decoration: none;
+  color: var(--black);
+  font-family: var(--title-font);
+  font-style: normal;
+  font-weight: var(--title-font-weight);
+  font-size: var(--title-font-size);
+  line-height: var(--title-line-height);
+}
+.appBar__navItem:hover,
+.appBar__navItem--active {
+  text-decoration: underline var(--red-highlight);
+  text-decoration-thickness: 0.188rem;
+  text-underline-offset: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .appBar {
+    justify-content: center;
+    margin: 1.3125rem 0 3.625rem 0;
+    gap: 0.9375rem;
+  }
+  .appBar__icon {
+    height: 3rem;
+  }
+  .appBar__nav {
+    gap: 0.9375rem;
+  }
+}

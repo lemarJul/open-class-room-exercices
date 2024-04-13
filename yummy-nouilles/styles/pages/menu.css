@@ -1,0 +1,39 @@
+.menu {
+  margin: auto;
+  margin-bottom: 72px;
+  width: 85%;
+  max-width: 1129px;
+}
+.menu__title {
+  margin: 0;
+  margin-top: 36px;
+}
+.menu__subtitle {
+  margin: 0;
+}
+.menu__card {
+  padding-top: 67px;
+  padding-bottom: 92px;
+  text-align: center;
+  align-items: center;
+  background-color: var(--white);
+}
+.menu__icon {
+}
+.menu__dishSection {
+  margin-top: 47px;
+  margin-bottom: 78px;
+}
+.menu__dishSectionTitle {
+  margin: 0;
+  margin-bottom: 43px;
+}
+.menu__dish {
+  margin-bottom: 52px;
+}
+.menu__dishTitle {
+  margin: 0;
+}
+.menu__dishDescription {
+  margin: 0;
+}

@@ -1,0 +1,21 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 72px;
+  gap: 1rem;
+}
+.contact__title {
+  margin: 0;
+}
+.contact__text {
+  margin: 0;
+  width: 85%;
+}
+@media (max-width: 768px) {
+  .contact__text {
+    width: 15.75rem;
+  }
+}
